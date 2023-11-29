@@ -1,0 +1,12 @@
+class smart_vending:
+    def display_menu(self):
+        print("Welcome to SMART VENDING!")
+    def _init_(self):
+        self.items
+            '1': {'name': 'Macbook', 'price': 1500, 'quatity': 10}
+            '2': {'name': 'Watch', 'price': 400, 'quatity': 10}
+            '3': {'name': 'Imac', 'price': 1500, 'quatity': 40}
+    def display_items(self):
+        print("Here are available items:")
+        for key, item in self.items.items():
+            print(f"{key}: {item['name']} - ${item['price']} - Quatity: {item['quantity']}")
